@@ -8,7 +8,7 @@ def myClick():
 
 mybutton=Button(root,text="click me",state=DISABLED,fg="white",bg="black")
 
-mybutton2=Button(root,text="click me button",fg="blue",bg="#000000",padx=80,pady=40,command=myClick)
+mybutton2=Button(root,text="click me button",fg="blue",bg="#000000",padx=10,pady=10,command=myClick)
 
 
 mybutton.pack()
